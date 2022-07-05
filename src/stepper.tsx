@@ -62,7 +62,7 @@ const FifthStep: React.FC<{}> = ({}) => {
   }
 
   function getVb(tankMass: number) {
-    return -(82.245 * tankMass + 2500);
+    return -(82.245 * tankMass ) + 2500;
   }
 
   function handleMassChange(event: any) {
